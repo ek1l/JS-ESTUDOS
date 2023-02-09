@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    gap: 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto-dentro {
+    line-height: 90px;
+}
+.texto-dentro p {
+    display: none;
+}
+
+.texto-dentro p.ativo {
+    display: block;
+}

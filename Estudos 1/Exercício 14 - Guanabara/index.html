@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     <div>
+        <h1>DIGITE O SEU PAÍS</h1>
+         <input type="txt" id="txtn1">
+         <input type="button" value="Calcular" onclick="calcular()">
+
+     </div>
+       <div id="res"></div>
+     <script>
+       
+        function calcular(){
+            var pais = document.querySelector('input#txtn1')
+            var valor = txtn1.value
+
+        if (valor == 'Brasil'){
+                   document.getElementById('#res')
+                   res.innerHTML = `<p>Morando em <strong> ${valor} </strong> você é Brasileiro</p>`
+        }else{
+                    document.querySelector('div#res')
+                    res.innerHTML = `<p>Morando em <strong> ${valor} </strong> você é Estrangeiro</p>`
+        }
+    }
+
+     </script>
+</body>
+</html>

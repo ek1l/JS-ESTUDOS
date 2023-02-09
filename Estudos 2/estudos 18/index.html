@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <form onsubmit="save()">
+        <label>O imóvel é casa ou apartamento?</label>
+        <input id="casaOuApartamento" type="text" required><br>
+        <label>CEP:</label>
+        <input type="number" id="cep" required><br>
+        <select name="" id="alugado" required>
+            <option value="Alugada">Alugada</option>
+            <option value="Não está alugada">Não está alugada</option>
+        </select>
+        <button  type="submit">Enviar</button>
+    </form>
+    <div id="listagem-de-casas">
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

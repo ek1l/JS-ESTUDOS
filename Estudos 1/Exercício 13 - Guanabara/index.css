@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: black;
+}
+section {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 400px;
+    gap: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+ section h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+input[type=text] {
+    color: black;
+    padding: 20px;
+    width: 200px;
+  }
+
+  input[type=radio] {
+    cursor: pointer;
+  }
+
+.texto {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container-section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    gap: 20px;
+}
+
+.idade {
+    font-size: 20px;
+    width: 100%;
+    color: black;
+}
+
+button {
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.3s;
+    border:4px solid rgb(223, 125, 125);
+
+}
+button:hover {
+    border:4px solid rgb(239, 95, 95);
+    background-color:black ;
+    color: white;
+}
+
+.idade {
+    color: white;
+    height: 20px;
+}
+
+.foto {
+    width: 150px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.foto img {
+    border-radius: 20px;
+}

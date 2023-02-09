@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+
+     <div class="texto-do-lado">
+       <h3>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h3>
+       <p>caso tenha ficado com qualquer dúvida <br> basta nos mandar uma mensagem e <br> entraremos em contato em menos de 24h.</p>
+     </div>
+
+     <form id="form" action="">
+        <input class="bordainput"  type="text" name="nome" id="nome" placeholder="Nome completo *">
+        <div class="errado">Campo obrigatório *</div>
+        <input class="bordainput" type="email" name="email" id="email" placeholder="Email *">
+        <div class="errado">Campo obrigatório *</div>
+        <input class="bordainput" type="number" name="numero" id="numero" placeholder="Telefone *">
+        <div class="errado">Campo obrigatório *</div>
+        <textarea class="bordainput" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem *"></textarea>
+        <div class="errado">Campo obrigatório *</div>
+        <h5>*Campos obrigatórios</h5>
+        <input id="enviar" type="button" value="submit">
+        <input id="estilizar"  onclick="registrar()" type="button" value="Registrar">
+     </form>
+    </main>
+    <div class="popup">
+      <h1>Registrar</h1>
+      <input type="text" name="" placeholder="Digite o seu email" id="">
+      <input type="password" placeholder="digite a sua senha">
+      <input  id="estilizar2" onclick="fechar()" type="button" value="X">
+     </div>
+    <script src="./script.js"></script>
+</body>
+</html>

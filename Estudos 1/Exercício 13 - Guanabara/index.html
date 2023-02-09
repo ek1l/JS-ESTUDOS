@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>ano de nascimento</title>
+</head>
+<body>
+
+    <section>
+        <h1>VERIFICADOR DE IDADE</h1>
+        <div class="container-section">
+            <div class="texto">
+                <input  required type="text" minlength="4" maxlength="4" name="ano" id="#ano" placeholder="Digite o seu ano de nascimento">
+              
+                <form>
+                    Masculino  <input type="radio" onclick="Mbutton()" name="opcao" VALUE="opmm" id="opm">
+                    Feminino <input type="radio" onclick="Fbutton()" name="opcao" VALUE="opff"> 
+                    </form>
+                    <div class="idade"></div>
+                    <div class="foto"></div>
+                <button onclick="resultado()">Verificar</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
